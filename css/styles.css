@@ -19,10 +19,12 @@ body {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
   text-decoration: none;
+  color: white; /* or your desired color */
+  display: inline-block;
+}
+.logo h1 {
+  margin: 0;
 }
 
 .nav-links {
